@@ -1,0 +1,216 @@
+/* ---------------------------------------------------------------------------------------- */
+
+/* Gerais */
+.padrao1 {
+  background-image: url("../images/bg.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding: 0 14% 0 14%;
+}
+
+.padrao2 {
+  background-color: #6080c3;
+  text-align: center;
+  padding: 0 14% 0 14%;
+}
+
+body{
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+header{
+  font-weight: 700;
+  padding: 20px;
+  color: #f6da71;
+}
+
+h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    text-align: center;
+    color: #f6da71;
+    margin-bottom: 30px;
+}
+
+h3{
+  font-size: 0.8rem;
+}
+
+p {
+    color:#fff;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+
+/* Variáveis */
+.mb-30{
+  margin-bottom: 30px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mr-7{
+  margin-right: 7%;
+}
+
+
+/* ---------------------------------------------------------------------------------------- */
+
+
+/* Regras */
+/* header*/
+.cadastro{
+  text-align: left;
+  padding: 1.5% 0 4%;
+}
+
+.text-cadastro{
+  font-family: 'Montserrat', 'principal';
+  font-weight: 700;
+  color: #EB212E;
+}
+
+.btn-warning{
+  background-color: #f6da71;
+  border-color: #f6da71;
+}
+
+.redes-sociais{
+  text-align: right;
+}
+
+.img-redes{
+  padding: 4% 2% 0 0;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.img-redes:hover{
+  color: #f6da71;
+}
+/*logo */
+.logo-box{
+  text-align: center;
+}
+.text-logo-box{
+  margin: auto;
+  padding: 3%;
+}
+
+.text-logo{
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  padding-bottom: 5%;
+}
+
+.download-buttons{
+  text-align: center;
+}
+
+/*pratico*/
+.pratico{
+  margin-top: 60px;
+}
+
+.text-pratico{
+  padding: 5%;
+}
+
+.img-pratico-box{
+  text-align: center;
+}
+
+.img-pratico{
+  padding: 7%;
+}
+
+/*video*/
+.video-box{
+  text-align: center;
+}
+
+.video{
+  padding: 0 7%;
+  max-width:100%;
+}
+
+.box{
+  text-align: center;
+}
+
+/*banner*/
+.banner{
+  background-image: url("../images/bg-trans.png");
+}
+
+/*contato*/
+.img-contato{
+  width: 15%;
+  margin-bottom: 2%;
+}
+
+/*apoio*/
+.img-apoio{
+  width: 70%;
+  margin-bottom: 2%;
+}
+
+.img-apoio-bmk{
+  width: 55%;
+}
+
+/*footer*/
+.footer{
+  text-align: center;
+  padding: 5% 0 1%;
+  background-color: #6080c3;
+}
+
+/*ajustes pra mobile*/
+@media (max-width: 1000px){
+  .padrao1 {
+    padding: 0 10% 0 10%;
+  }
+
+  .padrao2 {
+    padding: 0 10% 0 10%;
+  }
+
+  .cadastro{
+    text-align: center;
+  }
+
+  .redes-sociais{
+    text-align: center;
+  }
+
+  .pratico{
+    margin-top: 20px;
+  }
+
+  .img-pratico{
+    width: 50%;
+
+  }
+
+  .img-apoio{
+    width: 70%;
+    margin-bottom: 7%;
+  }
+}
