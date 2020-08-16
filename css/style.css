@@ -123,6 +123,10 @@ img {
   text-align: center;
 }
 
+.left-button{
+  margin-right: 7%;
+}
+
 /*pratico*/
 .pratico{
   margin-top: 60px;
@@ -200,6 +204,11 @@ img {
     text-align: center;
   }
 
+  .left-button{
+    margin-right: 0;
+    margin-bottom: 5%;
+  }
+
   .pratico{
     margin-top: 20px;
   }
@@ -209,8 +218,14 @@ img {
 
   }
 
+  .text-contato{
+    font-size: 1rem;
+  }
+
   .img-apoio{
     width: 70%;
     margin-bottom: 7%;
   }
+
+
 }
