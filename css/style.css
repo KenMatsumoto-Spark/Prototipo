@@ -187,13 +187,17 @@ img {
 }
 
 /*ajustes pra mobile*/
-@media (max-width: 1000px){
+@media (max-width: 500px){
   .padrao1 {
     padding: 0 10% 0 10%;
   }
 
   .padrao2 {
     padding: 0 10% 0 10%;
+  }
+
+  .a-text-cadastro{
+    margin-top: 10px;
   }
 
   .cadastro{
