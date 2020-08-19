@@ -134,8 +134,13 @@ img {
   padding-bottom: 5%;
 }
 
-.img-func-agend{
-  
+.video-box-youtube{
+  text-align: center;
+}
+
+.video-youtube{
+  min-width: 80%;
+  height: 300px;
 }
 
 /*banner*/
