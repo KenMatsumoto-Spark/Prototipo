@@ -27,13 +27,21 @@ header{
   color: #f6da71;
 }
 
+h1{
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.5rem;
+}
+
 h2 {
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     text-align: center;
     color: #f6da71;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 h3{
@@ -42,9 +50,9 @@ h3{
 
 p {
     color:#fff;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 img {
@@ -106,16 +114,13 @@ img {
 .logo-box{
   text-align: center;
 }
+
 .text-logo-box{
   margin: auto;
   padding: 3%;
 }
 
 .text-logo{
-  text-align: center;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: white;
   padding-bottom: 5%;
 }
 
@@ -123,27 +128,36 @@ img {
   text-align: center;
 }
 
+/*funcoes*/
+.text-descricao{
+  margin: 4% 0 0;
+  padding-bottom: 5%;
+}
+
+.img-func-agend{
+  
+}
+
+/*banner*/
+.banner{
+  background-image: url("../images/bg-trans.png");
+  background-size: cover;
+}
 
 /*pratico*/
-.pratico{
-  margin-top: 60px;
-}
-
-.text-pratico{
-  padding: 5%;
-}
 
 .img-pratico-box{
   text-align: center;
 }
 
 .img-pratico{
-  padding: 7%;
+  padding: 2%;
 }
 
 /*video*/
 .video-box{
   text-align: center;
+  padding-bottom: 5%;
 }
 
 .video{
@@ -155,17 +169,23 @@ img {
   text-align: center;
 }
 
-/*banner*/
-.banner{
-  background-image: url("../images/bg-trans.png");
-  background-size: cover;
-}
-
 /*contato*/
 .img-contato{
   width: 15%;
   margin-bottom: 2%;
 }
+
+.text-link-contato:hover{
+  color: #f6da71;
+}
+
+.link-contato:hover{
+  text-decoration: none;
+}
+
+ .fa-contato{
+  font-size: 4rem;
+ }
 
 /*apoio*/
 .img-apoio{
@@ -206,10 +226,6 @@ img {
     text-align: center;
   }
 
-  .button-download{
-    margin-bottom:
-  }
-
   .pratico{
     margin-top: 0px;
   }
@@ -227,6 +243,5 @@ img {
     width: 70%;
     margin-bottom: 7%;
   }
-
 
 }
