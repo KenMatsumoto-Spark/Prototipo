@@ -15,6 +15,13 @@
   padding: 0 14% 0 14%;
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+    visibility: hidden;
+}
+
 body{
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
@@ -80,6 +87,31 @@ img {
 
 
 /* Regras */
+/*navbar*/
+.img-brand{
+  width: 50px;
+}
+
+.navbar{
+  background-color:  #EB212E;
+}
+
+.nav-link{
+  font-weight: 700;
+  color: white;
+  font-size: 1rem;
+}
+
+.hamburguer-icon{
+  color: white;
+}
+
+.img-redes{
+  padding-right: 20px;
+  color: white;
+  font-size: 2.5rem;
+}
+
 /* header*/
 .cadastro{
   text-align: left;
@@ -101,16 +133,14 @@ img {
   text-align: right;
 }
 
-.img-redes{
-  padding: 4% 2% 0 0;
-  color: white;
-  font-size: 2.5rem;
-}
-
 .img-redes:hover{
   color: #f6da71;
 }
 /*logo */
+.logo{
+  margin-top: 5%;
+}
+
 .logo-box{
   text-align: center;
 }
@@ -141,6 +171,11 @@ img {
 .video-youtube{
   min-width: 80%;
   height: 300px;
+}
+
+.video-youtube-12{
+  min-width: 70%;
+  height: 400px;
 }
 
 /*banner*/
@@ -180,6 +215,10 @@ img {
   margin-bottom: 2%;
 }
 
+.nav-link:hover{
+  color: #f6da71;
+}
+
 .text-link-contato:hover{
   color: #f6da71;
 }
@@ -209,8 +248,16 @@ img {
   background-color: #6080c3;
 }
 
+.fim-padrao-1{
+  margin-bottom: 0;
+}
+
 /*ajustes pra mobile*/
 @media (max-width: 1000px){
+  .qr-code{
+    display: none;
+  }
+
   .padrao1 {
     padding: 0 10% 0 8%;
   }
