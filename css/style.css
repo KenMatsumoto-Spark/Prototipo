@@ -125,12 +125,12 @@ img {
 .text-cadastro{
   font-family: 'Montserrat', 'principal';
   font-weight: 700;
-  color: #EB212E;
+  color: white;
 }
 
-.btn-warning{
-  background-color: #f6da71;
-  border-color: #f6da71;
+.btn-primary{
+  background-color: #6080c3;
+  border-color: #6080c3;
 }
 
 .redes-sociais{
@@ -183,6 +183,7 @@ img {
 }
 
 .video-youtube-campanha{
+  margin: 20px;
   min-width: 100%;
   height: 400px;
 }
