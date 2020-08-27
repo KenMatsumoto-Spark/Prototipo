@@ -102,6 +102,10 @@ img {
   font-size: 1rem;
 }
 
+.nav-item-text{
+  padding-right: 20px;
+}
+
 .hamburguer-icon{
   color: white;
 }
@@ -173,10 +177,16 @@ img {
   height: 300px;
 }
 
-.video-youtube-12{
+.video-youtube-doacao{
   min-width: 70%;
   height: 400px;
 }
+
+.video-youtube-campanha{
+  min-width: 100%;
+  height: 400px;
+}
+
 
 /*banner*/
 .banner{
@@ -251,6 +261,16 @@ img {
 .fim-padrao-1{
   margin-bottom: 0;
 }
+
+.hyper-instituto{
+  color: white;
+}
+
+.hyper-instituto:hover{
+  text-decoration: none;
+  color: #f6da71;
+}
+
 
 /*ajustes pra mobile*/
 @media (max-width: 1000px){
