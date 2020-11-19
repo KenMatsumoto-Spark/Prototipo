@@ -158,6 +158,10 @@ img {
   padding-bottom: 5%;
 }
 
+.destaque{
+  font-size: 1.1rem;
+}
+
 .download-buttons{
   text-align: center;
 }
@@ -199,6 +203,7 @@ img {
 
 .img-pratico-box{
   text-align: center;
+  max-height: 400px;
 }
 
 .img-pratico{
@@ -212,7 +217,7 @@ img {
 }
 
 .video{
-  padding: 0 7%;
+  padding: 0 2%;
   max-width:100%;
 }
 
@@ -242,6 +247,10 @@ img {
   font-size: 4rem;
  }
 
+/*parceiros*/
+.img-parceiros{
+  max-height: 150px;
+}
 /*apoio*/
 .img-apoio{
   width: 70%;
