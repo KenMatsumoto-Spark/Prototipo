@@ -231,6 +231,7 @@ img {
     width: 4%
 }
 
+
 .car-box{
   padding: 30px 30px 30px;
   height: 100%;
@@ -238,12 +239,13 @@ img {
 }
 
 .car-1-video{
-  height: 400px;
-  width: 80%;
+  height: 500px;
+  width: 800px;
+  max-width: 80%;
 }
 
 .car-2-video{
-  height: 400px;
+  height: 500px;
   width: 1500px;
   max-width: 100%;
 }
